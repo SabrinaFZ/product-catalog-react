@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "iPhone 7",
+        "brand": "Apple",
+        "color": "[ black, white, gray]",
+        "price": "529",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/387499-smartphones-apple-iphone7.jpg",
+        "description": "The Apple iPhone 7 is a smartphone that was tested with the iOS 10.0.2 operating system. This model weighs 4.8 ounces, has a 4.7 inch touch screen display, 12-megapixel main camera, and 7-megapixel selfie camera. It comes with 2GB of RAM. It was tested with 32GB of storage."
+    },
+    {
+        "id": "2",
+        "name": "iPhone 8",
+        "brand": "Apple",
+        "color": "[ black, white, gray ]",
+        "price": "599.99",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/393406-smartphones-apple-iphone8.jpg",
+        "description": "The Apple iPhone 8 is a smartphone that was tested with the iOS 11 operating system. This model weighs 5.3 ounces, has a 4.7 inch touch screen display, 12-megapixel main camera, and 7-megapixel selfie camera. It comes with 2GB of RAM. It was tested with 64GB of storage."
+    },
+    {
+        "id": "3",
+        "name": "Samsung Galaxy S8",
+        "brand": "Samsung",
+        "color": "[ black, white ]",
+        "price": "449.99",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/388921-smartphones-samsung-galaxys8.jpg",
+        "description": "The Samsung Galaxy S8 is a smartphone that was tested with the Android 7.0 operating system. This model weighs 5.3 ounces, has a 5.8 inch touch screen display, 12-megapixel main camera, and 8-megapixel selfie camera. It comes with 4GB of RAM. It was tested with 64GB of storage and has a memory card slot for expanded storage."
+    },
+    {
+        "id": "4",
+        "name": "iPhone 6s Plus",
+        "brand": "Apple",
+        "color": "[ white ]",
+        "price": "299",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/384547-smartphones-apple-iphone6splus.jpg",
+        "description": "The Apple iPhone 6s Plus is a smartphone that was tested with the iOS 10.1.1 operating system. This model weighs 6.7 ounces, has a 5.5 inch touch screen display, 12-megapixel main camera, and 5-megapixel selfie camera. It comes with 2GB of RAM. It was tested with 16GB of storage."
+    },
+    {
+        "id": "5",
+        "name": "Google Pixel 2 XL",
+        "brand": "Google",
+        "color": "[ black ]",
+        "price": "504",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/393611-smartphones-google-pixel-2-xl-59280.jpg",
+        "description": "The Google Pixel 2 XL is a smartphone that was tested with the Android 8.0 operating system. This model weighs 6.2 ounces, has a 6 inch touch screen display, 12-megapixel main camera, and 8-megapixel selfie camera. It comes with 4GB of RAM. It was tested with 64GB of storage."
+    },
+    {
+        "id": "6",
+        "name": "Huawei Honor 6X",
+        "brand": "Huawei",
+        "color": "[ white, gray ]",
+        "price": "248.88",
+        "picture_url": "https://crdms.images.consumerreports.org/f_auto,w_598/prod/products/cr/models/389401-smartphones-huawei-honor6x.jpg",
+        "description": "The Huawei Honor 6X is a smartphone that was tested with the Android 6.0 operating system. This model weighs 5.9 ounces, has a 5.5 inch touch screen display, 12-megapixel main camera, and 8-megapixel selfie camera. It comes with 3GB of RAM. It was tested with 32GB of storage and has a memory card slot for expanded storage."
+    }
+]
