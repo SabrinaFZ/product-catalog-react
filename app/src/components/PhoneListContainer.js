@@ -1,21 +1,17 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class PhoneListContainer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {
-            phones: []
-        }
     }
 
     componentDidMount(){
         axios.get('http://localhost:3000/phones').then(response => {
             if(response.status === 200){
-                this.setState({
-                    phones: response.data.results
-                });
+                this.props.setPhones(response.data.results);
             }
         }).catch(err => {
             console.log(err);
@@ -23,7 +19,7 @@ class PhoneListContainer extends React.Component {
     }
 
     render(){
-        const { phones } = this.state;
+        const { phones } = this.props;
 
         return (
             <section className="container">
@@ -48,5 +44,10 @@ class PhoneListContainer extends React.Component {
         )
     }
 }
+
+PhoneListContainer.propTypes = {
+    phones: PropTypes.arrayOf(PropTypes.object),
+    setPhones: PropTypes.func
+};
 
 export default PhoneListContainer;

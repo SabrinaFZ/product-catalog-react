@@ -10,10 +10,10 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .container__list{
-    padding-top: 1.5rem;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

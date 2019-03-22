@@ -1,7 +1,4 @@
-import { 
-    SET_PHONES
-} from './actionTypes';
-
+import { SET_PHONES } from './actionTypes';
 
 const setPhones = (phones) =>{
     return {
@@ -10,6 +7,6 @@ const setPhones = (phones) =>{
     }
 }
 
-export default {
+export {
     setPhones
 }

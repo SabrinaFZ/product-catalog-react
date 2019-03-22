@@ -12,12 +12,14 @@ module.exports = {
         port: 8080,
         open: true,
         overlay: true,
-        watchContentBase: true
+        watchContentBase: true,
+        historyApiFallback: true
     },
     entry: path.join(__dirname, 'src', 'index.js'),
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     module: {
         rules: [
