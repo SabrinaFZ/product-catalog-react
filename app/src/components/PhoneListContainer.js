@@ -9,6 +9,7 @@ class PhoneListContainer extends React.Component {
     }
 
     componentDidMount(){
+        this.props.showSpinner(true);
         axios.get('http://localhost:3000/phones').then(response => {
             if(response.status === 200){
                 this.props.setPhones(response.data.results);
