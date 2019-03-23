@@ -1,5 +1,5 @@
 # Phone World
-This an web application to show a phone catalog based on React, Redux, Node and Ëxpress.
+This is an web application to show a phone catalog based on React, Redux, Node and Ëxpress.
 
 # Getting Started
 Follow the instruction to start the project locally in your machine
