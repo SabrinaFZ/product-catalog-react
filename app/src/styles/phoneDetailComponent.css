@@ -1,0 +1,42 @@
+.phone__information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.phone__information-info h2, p:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+.phone__information-image img{
+    width: 100%;
+}
+
+.phone__information-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.phone-color {
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    border: 0.1rem solid black;
+    border-radius: 10%;
+}
+
+.phone-color:not(:last-child){
+    margin-right: 0.1rem;
+}
+
+.phone-color.black {
+    background: black;
+}
+
+.phone-color.white {
+    background: white;
+}
+
+.phone-color.gray {
+    background: gray;
+}

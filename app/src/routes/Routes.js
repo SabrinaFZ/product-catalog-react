@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import PhoneListContainer from './../components/PhoneListContainer';
-import PhoneDetailComponent from './../components/PhoneDetailComponent';
+import PhoneListCatalogContainer from "../containers/PhoneListCatalogContainer";
+import PhoneDetailContainer from './../containers/PhoneDetailContainer';
 
 const Routes = () => {
     return(
         <Switch>
-            <Route exact path="/" component={PhoneListContainer} />
-            <Route path="/phone/:id" component={PhoneDetailComponent}/>
+            <Route exact path="/" component={PhoneListCatalogContainer} />
+            <Route path="/phone/:id" component={PhoneDetailContainer}/>
             <Route component={() => <p>Error!</p>} />
         </Switch>
     )

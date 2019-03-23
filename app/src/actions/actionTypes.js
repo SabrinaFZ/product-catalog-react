@@ -1,0 +1,7 @@
+const SET_PHONES = "SET_PHONES",
+SHOW_SPINNER = "SHOW_SPINNER";
+
+export {
+    SET_PHONES,
+    SHOW_SPINNER
+}
