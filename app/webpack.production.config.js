@@ -4,17 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-    mode: "development",
-    devtool: "source-map",
-    devServer: {
-        contentBase: path.resolve(__dirname, "dist"),
-        hot: true,
-        port: 8080,
-        open: true,
-        overlay: true,
-        watchContentBase: true,
-        historyApiFallback: true
-    },
+    mode: "production",
     entry: path.join(__dirname, "src", "index.js"),
     output: {
         filename: "bundle.js",
@@ -56,7 +46,11 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, "src", "index.html")
+            template: path.join(__dirname, "src", "index.html"),
+            minify: {
+                collapseWhitespace: true,
+                removeComments: true
+            }
         }),
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),

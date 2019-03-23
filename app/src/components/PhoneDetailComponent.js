@@ -17,7 +17,7 @@ const PhoneDetailComponent = ({phone}) => {
                     <p className="phone__information-description">{phone.description}</p>
                     <p className="phone__information-price">{phone.price} $</p>
                     <p className="phone__information-color">{phone.color.map(color => {
-                        return <div key={`${phone.id}${color}`} className={"phone-color " + color}></div>
+                        return <span key={`${phone.id}${color}`} className={"phone-color " + color}></span>
                     })}</p>
                 </div>
             </div>

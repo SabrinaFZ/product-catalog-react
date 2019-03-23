@@ -13,6 +13,14 @@ app.use((_, res, next) => {
 
 app.use('/', apiRouter);
 
+app.use((err, _, res) => {
+    res.status(500);
+    res.json({
+        error: err.message
+    })
+});
+
+
 app.listen(process.env.PORT || 3000, () => {
     console.log('Listening...');
 });

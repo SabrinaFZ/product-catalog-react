@@ -1,4 +1,4 @@
-import { SET_PHONES } from './actionTypes';
+import { SET_PHONES, SHOW_SPINNER } from "./actionTypes";
 
 const setPhones = (phones) =>{
     return {
@@ -7,6 +7,14 @@ const setPhones = (phones) =>{
     }
 }
 
+const showSpinner = (bool) => {
+    return {
+        type: SHOW_SPINNER,
+        bool
+    }
+}
+
 export {
-    setPhones
+    setPhones,
+    showSpinner
 }
